@@ -9,7 +9,7 @@ public class GetVillainsNames {
         //GET VILLAINS' NAMES BASED ON NUMBER OF MINIONS
         Properties properties = new Properties();
         properties.setProperty("user", "root");
-        properties.setProperty("password", "am99e3n8");
+        properties.setProperty("password", "pass");
 
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db", properties);
 
